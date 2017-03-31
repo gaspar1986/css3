@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=Edge">
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    </style>
+</head>
+
+<body>
+<p>请点击图像上的星球，把它们放大。</p>
+
+<div>
+<img src="eg_planets.jpg" class="mapper" border="0" usemap="#planetmap" alt="Planets" />
+</div>
+<map name="planetmap" id="planetmap">
+
+<area shape="circle" coords="180,139,14"  href ="/example/html/venus.html" target ="_blank" alt="Venus" />
+<area shape="circle" coords="129,161,10"  href ="/example/html/mercur.html" target ="_blank" alt="Mercury" />
+<!-- <area shape="rect" coords="0,0,110,260"  class="iborderaaffaa icolor00ff00" href ="/example/html/sun.html" target ="_blank" alt="Sun"/> -->
+<area shape="poly" coords="0,0,50,0,30,30"  class="iborderaaffaa icolor00ff00" href ="/example/html/sun.html" target ="_blank" alt="Sun"/>
+</map>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="./mapper/mapper/mapper.js"></script>
+<script>
+
+</script>
+</body>
+
+</html>
