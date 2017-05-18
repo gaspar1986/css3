@@ -1,0 +1,9 @@
+#main{
+	width:200px;
+	height: 200px;
+	border:1px solid blue;
+	border-radius: 10px;
+}
+ul li:nth-child(2){
+	background: #afa;
+}
